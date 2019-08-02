@@ -18,4 +18,12 @@ export class User{
     this.gettoken = gettoken;
   }
 
+  setFromResource(user: any){
+    this.id = user.id;
+    this.role = user.role;
+    this.name = user.name;
+    this.surname = user.surname;
+    this.email = user.email;
+  }
+
 }

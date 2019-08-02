@@ -1,7 +1,11 @@
 <div class="col-sm-12">
   <h2>{{pageTitle}}</h2>
 
-  <div class="alert alert-success" role="alert" *ngIf="status == 'success'">
+  <div class="alert alert-success" role="alert" *ngIf="statusCar == 'success'">
+    Se ha registrado correctamente.
+  </div>
+
+  <div class="alert alert-success" role="alert" *ngIf="statusCar == 'error'">
     Se ha registrado correctamente.
   </div>
 
